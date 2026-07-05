@@ -1,0 +1,7 @@
+timestamp,scenario_id,service,metric_name,value,unit,labels
+2026-07-05T14:15:00Z,payment_timeout_db_saturation,payment-service,request_timeout_rate,0.03,ratio,"endpoint=POST /api/payments"
+2026-07-05T14:20:00Z,payment_timeout_db_saturation,payment-service,request_timeout_rate,0.24,ratio,"endpoint=POST /api/payments"
+2026-07-05T14:20:00Z,payment_timeout_db_saturation,payment-service,request_latency_p95,5.8,s,"endpoint=POST /api/payments"
+2026-07-05T14:20:00Z,payment_timeout_db_saturation,payment-db,db_connection_pool_usage,0.98,ratio,"cluster=payment-db-prod"
+2026-07-05T14:20:00Z,payment_timeout_db_saturation,payment-db,db_cpu_usage,0.93,ratio,"cluster=payment-db-prod"
+2026-07-05T14:20:00Z,payment_timeout_db_saturation,payment-db,row_lock_wait_p95,1.9,s,"cluster=payment-db-prod"

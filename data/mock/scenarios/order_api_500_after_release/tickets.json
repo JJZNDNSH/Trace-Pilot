@@ -1,0 +1,13 @@
+[
+  {
+    "ticket_id": "INC-20260705-1001",
+    "scenario_id": "order_api_500_after_release",
+    "title": "发布后 order-api 500 错误激增",
+    "status": "investigating",
+    "priority": "P1",
+    "created_at": "2026-07-05T10:08:12Z",
+    "updated_at": "2026-07-05T10:12:40Z",
+    "owner_team": "commerce-oncall",
+    "description": "用户下单请求大量返回 500，异常开始时间与 09:58 发布高度接近，当前正在评估是否回滚。"
+  }
+]

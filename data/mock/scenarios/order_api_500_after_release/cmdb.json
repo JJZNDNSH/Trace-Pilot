@@ -1,0 +1,19 @@
+[
+  {
+    "service": "order-api",
+    "scenario_id": "order_api_500_after_release",
+    "owner_team": "commerce",
+    "environment": "production",
+    "repository": "git@example.com:tracepilot/order-api.git",
+    "upstreams": [
+      "web-frontend",
+      "checkout-service"
+    ],
+    "downstreams": [
+      "inventory-service",
+      "payment-service"
+    ],
+    "oncall_team": "commerce-oncall",
+    "notes": "订单创建接口 SLO 为 99.9%，发布窗口默认需要关注 15 分钟错误率变化。"
+  }
+]

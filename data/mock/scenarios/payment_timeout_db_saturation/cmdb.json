@@ -1,0 +1,19 @@
+[
+  {
+    "service": "payment-service",
+    "scenario_id": "payment_timeout_db_saturation",
+    "owner_team": "payments",
+    "environment": "production",
+    "repository": "git@example.com:tracepilot/payment-service.git",
+    "upstreams": [
+      "checkout-service",
+      "order-api"
+    ],
+    "downstreams": [
+      "payment-db",
+      "bank-gateway"
+    ],
+    "oncall_team": "payments-oncall",
+    "notes": "支付链路峰值时对数据库连接池高度敏感，连接池上限调整需结合交易流量峰值评估。"
+  }
+]

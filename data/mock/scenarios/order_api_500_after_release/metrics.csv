@@ -1,0 +1,7 @@
+timestamp,scenario_id,service,metric_name,value,unit,labels
+2026-07-05T09:55:00Z,order_api_500_after_release,order-api,http_requests_total,1240,count,"endpoint=POST /api/orders,status=200"
+2026-07-05T09:55:00Z,order_api_500_after_release,order-api,http_requests_total,3,count,"endpoint=POST /api/orders,status=500"
+2026-07-05T10:05:00Z,order_api_500_after_release,order-api,http_requests_total,1318,count,"endpoint=POST /api/orders,status=200"
+2026-07-05T10:05:00Z,order_api_500_after_release,order-api,http_requests_total,246,count,"endpoint=POST /api/orders,status=500"
+2026-07-05T10:05:00Z,order_api_500_after_release,order-api,request_latency_p95,2.4,s,"endpoint=POST /api/orders"
+2026-07-05T10:08:00Z,order_api_500_after_release,order-api,request_latency_p95,3.1,s,"endpoint=POST /api/orders"

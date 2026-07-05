@@ -1,0 +1,17 @@
+[
+  {
+    "change_id": "chg-order-20260705-001",
+    "scenario_id": "order_api_500_after_release",
+    "service": "order-api",
+    "change_type": "release",
+    "changed_at": "2026-07-05T09:58:41Z",
+    "operator": "release-bot",
+    "version": "2026.07.05.1",
+    "summary": "发布 order-api 版本 2026.07.05.1，引入新的订单摘要组装逻辑。",
+    "details": {
+      "commit": "9ac31ef",
+      "pipeline": "deploy-prod-8841",
+      "risk_hint": "summary builder code path changed"
+    }
+  }
+]

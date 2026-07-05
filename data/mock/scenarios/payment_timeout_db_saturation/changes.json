@@ -1,0 +1,18 @@
+[
+  {
+    "change_id": "chg-payment-20260705-004",
+    "scenario_id": "payment_timeout_db_saturation",
+    "service": "payment-service",
+    "change_type": "config",
+    "changed_at": "2026-07-05T13:40:00Z",
+    "operator": "payments-sre",
+    "version": null,
+    "summary": "支付高峰前将 payment-service 的 DB 连接池上限从 160 下调到 120。",
+    "details": {
+      "config_key": "db.pool.max_size",
+      "old_value": 160,
+      "new_value": 120,
+      "reason": "降低数据库空闲连接占用"
+    }
+  }
+]

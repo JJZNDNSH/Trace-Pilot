@@ -1,0 +1,18 @@
+[
+  {
+    "alert_id": "alert-payment-timeout-001",
+    "scenario_id": "payment_timeout_db_saturation",
+    "service": "payment-service",
+    "name": "payment-service timeout spike",
+    "severity": "critical",
+    "status": "firing",
+    "fired_at": "2026-07-05T14:22:00Z",
+    "resolved_at": null,
+    "summary": "payment-service 超时率 15 分钟内升至 24%，数据库连接池使用率接近 100%。",
+    "labels": {
+      "environment": "production",
+      "cluster": "cn-prod-b",
+      "team": "payments"
+    }
+  }
+]

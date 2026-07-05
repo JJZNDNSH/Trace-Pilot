@@ -1,0 +1,18 @@
+[
+  {
+    "alert_id": "alert-order-500-001",
+    "scenario_id": "order_api_500_after_release",
+    "service": "order-api",
+    "name": "order-api 500 error rate spike",
+    "severity": "critical",
+    "status": "firing",
+    "fired_at": "2026-07-05T10:07:00Z",
+    "resolved_at": null,
+    "summary": "发布后 7 分钟内 order-api 的 500 错误率从 0.2% 上升到 18.7%。",
+    "labels": {
+      "environment": "production",
+      "cluster": "cn-prod-a",
+      "team": "commerce"
+    }
+  }
+]
