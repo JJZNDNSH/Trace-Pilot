@@ -67,12 +67,13 @@ class ActionRiskLevel(str, Enum):
 
 
 class InvestigationGraphNode(str, Enum):
-    """LangGraph 主图节点枚举。"""
+    """自研 Agent Loop 编排节点枚举。"""
 
     LOAD_CONTEXT = "load_context"
     CLASSIFY_INCIDENT = "classify_incident"
     RETRIEVE_KNOWLEDGE = "retrieve_knowledge"
     PLAN_INVESTIGATION = "plan_investigation"
+    RUN_INVESTIGATION_STEP = "run_investigation_step"
     RUN_LOGS_AGENT = "run_logs_agent"
     RUN_METRICS_AGENT = "run_metrics_agent"
     RUN_CHANGE_AGENT = "run_change_agent"
